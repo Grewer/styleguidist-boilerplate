@@ -95,6 +95,7 @@ function Person(props: IProps) {
   return <div>Person</div>
 }
 
+
 export default Person;
 ```
 添加使用用例:
@@ -104,6 +105,9 @@ export default Person;
     <Person name="grewer"/>
     ```
 ```
+
+#### 例子 1 结果:
+![](https://img2018.cnblogs.com/blog/1182844/202001/1182844-20200108175953126-419448208.jpg)
 
 ### 例子 2:
 
@@ -152,6 +156,11 @@ class Button extends React.Component<IProps, any> {
 export default Button;
 ```
 
+#### 例子 2 结果:
+![](https://img2018.cnblogs.com/blog/1182844/202001/1182844-20200108180005690-1413217167.jpg)
+
+
+
 ## 结果
 
 使用如下命令,可以创建一个 web 服务,在线修改文档:
@@ -166,8 +175,11 @@ styleguidist server
 styleguidist build
 ```
 
-结果页面查看:
-github
+
+如果库正好在 GitHub 上面,可是开通 `GitHub Pages` 功能,将文档包提交进 GitHub;
+本例结果页面查看:
+
+[https://grewer.github.io/styleguidist-boilerplate/styleguide/](https://grewer.github.io/styleguidist-boilerplate/styleguide/)
 
 
 ## 结语
